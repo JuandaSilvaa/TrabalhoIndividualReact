@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 header {
   background-color: #051248;
   color: white;
@@ -33,7 +31,6 @@ main {
   border-radius: 10px;
   box-shadow: 0 0px 20px rgba(10, 1, 49, 0.703);
 }
-
 
 footer {
   background-color: #051248;

@@ -7,13 +7,11 @@ form{
 
 input[type=number]::-webkit-inner-spin-button { 
     -webkit-appearance: none;
-    
 }
 
 input[type=number] { 
    -moz-appearance: textfield;
    appearance: textfield;
-
 }
 
 input{
@@ -35,7 +33,11 @@ input:focus {
     border: 2px solid #272727b5; 
 }
 
-input::-webkit-input-placeholder { /* Para Chrome, Safari e Opera */
+input::-webkit-input-placeholder { 
+    color: #353434;
+}
+
+input::-ms-input-placeholder { 
     color: #353434;
 }
 
@@ -51,9 +53,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #051248;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
